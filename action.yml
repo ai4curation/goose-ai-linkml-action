@@ -105,6 +105,10 @@ runs:
       if: inputs.enable-python-tools == 'true'
       uses: astral-sh/setup-uv@v5
 
+    - name: uv sync
+      run: |
+        uv sync
+
     - name: Install GH CLI
       uses: dev-hanz-ops/install-gh-cli-action@v0.2.1
 
