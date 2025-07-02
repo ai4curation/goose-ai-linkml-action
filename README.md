@@ -1,4 +1,4 @@
-# goose-ai-obo-action
+# goose-ai-linkml-action
 
 GitHub action for running goose over linkml repos
 
